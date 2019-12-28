@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ALL">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+    footer {margin-bottom:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color:whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background:red;
+  color: white;
+}
+.header{
+       margin-top:100px;
+        color:dimgray;
+        width:100%;
+        }
+footer {
+  background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+ 
+  }
+.content{
+    margin-left:10vw;
+    margin-right:10vw;
+    background-color:white;
+    color:gray;
+    font-size: 20px;
+    }
+.section{
+   padding: 1px;
+    background-color:deepskyblue;
+    color:white;
+    text-underline-position: auto;
+   font-size: 25px;
+    }
+</style>
+<head>
+<title>Thu thập dữ liệu</title>
+</head>
+<body>
+
+
+<div class="navbar">
+    <a href="index.html">Trang chủ</a>
+  <a href="Thu-thap.html">Thu thập dữ liệu</a>
+  <a href="Xu-li.html">Xử lý truy vấn</a>
+  <a href="Ket-qua.html">Câu trả lời hữu ích</a>
+</div>
+
+<div class ="header">
+ 
+<center>
+    <h1 style="font-size:40px"> THU THẬP VÀ QUẢN LÝ DỮ LIỆU </h1>
+</center>
+</div>
+
+<div class="content">
+    <center>
+        <p >Trước khi bạn tìm kiếm, Google đã thu thập thông tin của hàng trăm tỉ trang web khác nhau và lưu trữ chúng trong các thư viện tìm kiếm (Search Index) của họ.
+        </p>
+    </center>
+</div>
+    <center>
+    <video src="Vid/Collecting.mp4" autoplay loop muted playsinline style="max-width:100%">
+        
+        </video>
+    </center>
+
+<div class="section">
+    <center>
+    <h2> Crawling</h2>
+    </center>
+</div>
+    
+<div class="content">
+    <p>
+    Số lượng web là vô cùng rộng lớn, mặt khác, chúng ta không hề có một trung tâm để đăng kí và kiểm soát toàn bộ các website. Do đó, Google Search đã phát triển [GoogleBot], còn được gọi là robot hay spider, để tìm kiếm và thu thập thông tin của các trang web công khai. Quá trình này còn được gọi là Crawling.
+        <br />
+        <br />
+    Để Crawl, Google cần sử dụng một lượng lớn các máy tính để có thể thu thập thông tin của hàng tỉ trang web. Thuật toán của các "spider" này chỉ định xem chúng sẽ crawl trang nào, thường xuyên hay không, và crawl bao nhiêu trang.
+        <br />
+        <br />
+    Việc cập nhật và thu thập dữ liệu của các spider này là liên tục - bởi môi trường web luôn thay đổi và gia tăng nhanh chóng. [Googlebot] sẽ theo dõi các trang web mà nó đã thu thập từ trước, đi và thu thập dữ liệu của các trang web khác thông qua đường dẫn liên kết với trang web đã biết, hay thông qua các danh sách web do chủ sở hữu web yêu cầu được crawl. [Googlebot] đặc biệt chú ý tới những trang web mới được tạo, bị vô hiệu hóa hay xuất hiện sự thay đổi, cũng như dành sự quan tâm ít hơn tới các trang không hề thay đổi dữ liệu. Nếu bạn sử dụng các web host như Wix hay Blogger, họ sẽ yêu cầu [Googlebot] crawl dữ liệu của bạn nhanh hơn một chút khi bạn thực hiện thay đổi hay tạo mới một trang web.
+    </p>
+    <center>
+    <img src="pic/Googlebot.jpg" alt="Googlebot" style="max-width:100%;">
+    </center>
+    <p>
+    Tuy nhiên, không phải lúc nào các spider cũng có thể crawl được dữ liệu của web. Các trang web bị chặn bởi "robot.txt" (1 file do Google cung cấp, cho phép các chủ sở hữu trang web điều khiển và lựa chọn cách trang web của họ được crawl thế nào) sẽ không được crawl, tương tự đối với các trang web yêu cầu xác thực hay đăng nhập. 
+    </p>
+</div>
+    
+    <div class="section">
+    <center>
+    <h2> Indexing </h2>
+    </center>
+</div>
+    
+    <div class="content">
+        <p>
+        Sau khi một trang web được phát hiện, Google cố hiểu xem trang đang nói về vấn đề gì. Tiến trình này được gọi là Indexing (lập chỉ mục). Google phân tích nội dung trang web,từng từ ngữ và độ mới mẻ của thông tin, thống kê các hình ảnh và video được kèm trên trang, hay nói đúng hơn, cố để hiểu được trang web. Thông tin hiểu này được chứa trong Google Index, một database chứa trong rất, rất nhiều máy tính !
+        </p>
+        
+        <center>
+        <img src="pic/Indexing2.jpg" alt="catalog information" style="max-width:100%;">
+            </center>
+        <p>
+        Google Index tới nay, đã chứa hàng trăm tỉ trang web và có kích thước lớn hơn 100.000.000 gigabyte. Chỉ mục này giống như phần mục lục ở cuối sách, chỉ khác ở chỗ với mỗi một từ được tìm thấy trong tất cả trang web mà google thu thập được sẽ tạo thành 1 mục. Giả sử 1 trang web có 696 từ mới, nó sẽ tạo ra … 696 mục, và được xếp vào trong 696 mục đó. Không chỉ thế, Google cũng có thể index nhiều loại file khác nhau như PDF, Word, Excel, Powerpoint, Flash…
+            <br />
+            <br />
+        Mặc dù lượng Index khổng lồ, một vài nguồn tin cho rằng Google chỉ thu thập dữ liệu của ít hơn 5% trong toàn thể Internet, với phần lớn còn lại thuộc về deep web, thứ mà không thể truy cập thông qua việc dùng Google Search.
+            <br />
+            <br />
+        GoogleIndex ngày nay đã có thể thu thập dữ liệu của nhiều kiểu trang web, từ web cho điện thoại cho tới cho máy bàn, laptop, PC.
+
+        </p>
+    
+    </div>
+    <footer>
+        <div>
+            <img src="Pic/HCMUT.png" alt="HCMUT" style="width:80px;height:80px">
+            <p style="color:darkslategray"><b>ĐẠI HỌC BÁCH KHOA THÀNH PHỐ HỒ CHÍ MINH</b></p>
+             <p style="color:darkslategray"><b>KHOA KHOA HỌC VÀ KĨ THUẬT MÁY TÍNH</b></p>
+    </div>
+    </footer>
+
+</body>
+</html>
